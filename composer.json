@@ -1,6 +1,6 @@
 {
-    "name": "chriskonnertz/bbcode",
-    "description": "A naive attempt at a BBCode 'parser' written in PHP. It uses regex and thus fails at complex, nested tags.",
+    "name": "metnethu/bbcode",
+    "description": "A fork of bbcode parser, where custom tags are handled first.",
     "keywords": ["bbcode"],
     "license": "MIT",
     "authors": [
