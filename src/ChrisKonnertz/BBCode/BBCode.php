@@ -208,7 +208,11 @@ class BBCode
                                     $openTags[$tag->name][] = $tag;
                                 }
 
-                                $html .= $code;
+                                if (!$code) {
+                                    $html .= "[" . $tag->name . "]";
+                                } else {
+                                    $html .= $code;
+                                }
                             }
                             continue;
                         }
